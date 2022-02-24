@@ -4460,7 +4460,7 @@ async function setMintType() {
 
   if (isNormal) {
     mintType = "normal";
-    $("#incrBtn").attr('disabled', false);
+    $("#incrBtn").attr('disabled', true);
     $("#mintBtn").attr('disabled', false);
     return;
   }
