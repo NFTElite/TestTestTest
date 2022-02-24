@@ -1,5 +1,5 @@
 var mintType = "";
-var flag = 0;
+var flag = 1;
 //flag 0 is public and flag 1 is whitelist
 
 var networks = {
@@ -4508,7 +4508,7 @@ $("#incrBtn").on("click", function () {
     document.getElementById('number').innerHTML = 2;
   } else {
     const current = Number(document.getElementById("number").innerHTML.trim());
-    if(current >= 5) {
+    if(current >= 20) {
       return;
     }
 
