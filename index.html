@@ -45,15 +45,15 @@ background-position: center center;">
                                 class=" lazy-load-image-background blur lazy-load-image-loaded"
                                 style="display: inline-block;"><img class="w-372 image"
                                     src="./assets/images/mint-monkey.gif" alt="Monkey"></span>
-                            <h3>STONER APE CLUB <BR> SOLD OUT</h3>
-                            <p>6,666 out of 6,666</p>
+                            <h3>Amount to mint</h3>
+                            <p>(<span id="totalSupply"></span> Minted out of 6666)</p>
                             <div class="btn-group h-60px">
                                 <button class="left" onclick="document.getElementById('number').innerHTML = 1"><i
                                         class="fas fa-angle-left"></i></button>
                                 <div id="number">1</div>
                                 <button id="incrBtn" class="right"><i
                                         class="fas fa-angle-right"></i></button>
-                            </div><a href="javascript:void(0);" id="mintBtn" class="mint-btn btn mint">SOLDOUT</a>
+                            </div><a href="javascript:void(0);" onclick="mint()" id="mintBtn" class="mint-btn btn mint">Mint</a>
                         </div>
                     </div>
                 </div>
