@@ -1,5 +1,5 @@
 var mintType = "";
-var flag = 1;
+var flag = 0;
 //flag 0 is public and flag 1 is whitelist
 
 var networks = {
