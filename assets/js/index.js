@@ -4505,10 +4505,10 @@ if(flag !== 0) {
 
 $("#incrBtn").on("click", function () {
   if(flag !== 0) {
-    document.getElementById('number').innerHTML = 5;
+    document.getElementById('number').innerHTML = 2;
   } else {
     const current = Number(document.getElementById("number").innerHTML.trim());
-    if(current >= 1) {
+    if(current >= 5) {
       return;
     }
 
