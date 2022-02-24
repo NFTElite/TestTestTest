@@ -4504,7 +4504,7 @@ if(flag !== 0) {
 }
 
 $("#incrBtn").on("click", function () {
-  if(flag !== 0) {
+  if(flag !== 1) {
     document.getElementById('number').innerHTML = 2;
   } else {
     const current = Number(document.getElementById("number").innerHTML.trim());
