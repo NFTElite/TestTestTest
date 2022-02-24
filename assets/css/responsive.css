@@ -1,0 +1,140 @@
+﻿/* Pc_first */
+
+
+
+
+@media screen and (max-width: 1208px){
+    /* .btn-connect{
+        display: none !important;
+    } */
+   
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+    .logo {
+        width: 208px !important;
+        height: 94px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo-header {
+        display: grid;
+        width: 80%;
+        grid-template-columns: repeat(3,minmax(0,1fr));
+    }
+    .left-bar{
+        margin-top: 40px !important;
+    }
+    .right-bar{
+        margin-top: 40px !important;
+    }
+    .header .mint-btn {
+        right: 40% !important;
+        top: 142px !important;
+    }
+    .content {
+        margin-top: 130px !important;
+    }
+   
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    .logo {
+        height: 89px !important;
+        margin-left: auto;
+        margin-right: auto;
+        width: 194px !important;
+    }
+    .logo-header {
+        display: grid;
+        width: 80%;
+        grid-template-columns: repeat(3,minmax(0,1fr));
+    }
+    .left-bar{
+        margin-top: 40px !important;
+    }
+    .right-bar{
+        margin-top: 40px !important;
+    }
+    .image{
+        width: 276px !important;
+    }
+    .header .mint-btn {
+        right: 40% !important;
+        top: 142px;
+    }
+   
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 412px){
+    .logo {
+        position: relative;
+    right: 33px;
+        height: 90px !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px !important;
+        
+    }
+    .left-bar{
+        margin-top: 40px;
+    }
+    .right-bar{
+        margin-top: 40px;
+    }
+    .header .mint-btn {
+        font-size: 10px !important;
+        width: 140px !important;
+        height: 50px !important;
+        right: 32% !important;
+        top: 142px;
+        
+    }
+    #wrapper{
+        overflow-y: auto;
+    }
+}
+/* Iphone (480 x 640) */
+@media screen and (max-width:390px){
+    .logo {   
+        position: relative;
+    right: 33px;
+        height: 90px !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px !important;
+    
+ }
+ #wrapper{
+    overflow-y: auto;
+}
+}
+/* Smart phone nhỏ */
+@media screen and (max-width:376px){
+    #wrapper{
+        overflow-y: auto;
+    }
+    .logo {   
+        position: relative;
+    right: 33px;
+        height: 90px !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px !important;
+    
+    }
+    .header .mint-btn{
+        top: 104px !important;
+        left: 120px !important;
+    }
+    .mint-page-panel{
+        margin-top: 2rem !important;
+    }
+    .image {
+        width: 195px !important;
+    }
+    .header .logo-header{
+        top: 10px !important;
+    }
+}
+

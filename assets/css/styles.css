@@ -1,0 +1,123 @@
+﻿body{
+    font-family: "Blinker",sans-serif;
+    font-weight: 1000 !important;
+    min-height: 100vh;
+}
+.header .logo {
+    width: 280px;
+}
+.header .mint-btn {
+    padding-top: 20px;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 70px;
+    border-style: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    right: 60px;
+    color: #e7e9ff;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAA8CAYAAADyvPHhAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALrSURBVHgB7d1NctowFMDxJw+TrrMkm9KbkJv0JtCLtsmiNTSLniB+1ROSI4xtmCzwW/x/Mxn8bYHfyJIsK0Fu0B51Fz/28U/jX6jXhSCqer5sbLsRk9vYMdMGp+Om7fKyoDq5b7/dMD0TaSzrTqeqzjWSvn56eKwyb8fJaRvuK2PpnJgv0+VIk79hOV+Vnlt+86k03KT+jnPXvU5TnB5eM82/udwQNz9WcsXxTXddJ9+lk2/rdXgR4A5+t7pvGtHZAG1jcL6/x+D8Itunx/AqwJ1NBmi6rcecM6g8rwlO3FnMPU0YDdAUnBpzTgtObutYjjbDJblCRHBiaalqdRagVuYUSRUighOLi5Xz0AdoKXMSnHAiWC0+BWh/Wyc44UdqE20ITjgV4i0+NTPt9UE2tHPCm/4WT3DCqdAI4NOpmal0zAC8sTJoM9XLB1iaPe7kFg+vUtc8AhRepaLnijIonAqUQeFWCs5cBiUHhTvWSJ8+RchB4Y/1ZBIqSfAq96inmQluaekPShkULpVKEmVQeHRqZhLAqZSD0lAPr2ioh2t9h2XAI6vFXx2bCViIWhmUAIVXqejJLR5u0cwE18rwizQzwR3LPSWPbkczE9zJnUWUZ/Fw62zwMMAZ5a1OuFV3WKYMCnfyKx/c4uEW3e3gHwEKry7HqAccCbwXD7fykyRq8fCpHrgBcIsAhUu5oZ4AhU9WQeJZPDyjDAq/miCb8k4SzUxwxf65XKey1QfZ2gwBCjeOb7qLMfnrzz/9mhbEmU4AB1JwHqrgNOSg8OAi5ywIUCzNypwXOWe1kgDFYtqYcx6O+rNtdTO+AQGKhaSccy44zeEvAYr7K2XO2eA05KC4t5xzjpc5B1Z5B7WBbG2s0Pgpg5BNLy8N5s3UtmWdfmLs0eG5rq6r0j16Pkufdd0q6z6TrmqflIapc+b5NCnz32XMLdv3508zH+eaS7fI4HrMXOOpNNTLr6Zz5PjD47xIJ89Pj+FVrvgPjTOMmPaCDc4AAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 168px;
+    height: 60px;
+}
+.mint-btn:hover{
+    color: rgba(231,233,255,.2) !important;
+}
+
+.header .logo-header{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.mint-page-panel {
+    background: #221a3a;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+    width: fit-content;
+    clip-path: polygon(0 14px,0 100%,96.7% 100%,100% 97.8%,100% 0,14px 0);
+    color: #f3f6ff;
+}
+.image{
+    width: 372px;
+}
+.mint-page-panel h3 {
+    margin-top: 24px;
+    font-weight: 1000 !important;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.mint-page-panel .btn-group {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXQAAAA+CAYAAAA71+DtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHNSURBVHgB7di/axRBGMfhd/ZO9MxxHByChbY2sbTy/y9tbWxEdkFBAodITHFhzRwkJOTXljsvz1PswvCtPwxTYqK+H1elxOsAYHbGMc7LlOHZ2bi5Gn+6uIx/AcCsvFrE6mKM4dmgX8f86nb+ZbcrfwKAWRl+jx/qv3tqJOYA7Xg06GIO0JYHgy7mAO25F3QxB2jTnaCLOUC7boIu5gBtOwZdzAHa14k5QA7LwyFOT07i63ot5gAtOz657PdxCACa1gUAKQg6QBKCDpCEoAMkIegASQg6QBKCDpCEoAMkIegASQg6QBKCDpCEoAMkIegASQg6QBKCDpCEoAMkIegASQg6QBKCDpCEoAMkIegASQg6QBKCDpCEoAMkIegASQg6QBKCDpCEoAMkIegASQg6QBKCDpCEoAMkIegASQg6QBKCDpCEoAMkIegASQg6QBKCDtCwvh9XcRnvV12cCzpAo2rMy4v4HIvod7syCDpAg27H/N2b8q2eCTpAYx6KeSXoAA15LOaVoAM04qmYV4IO0IDnYl4JOsDMTYl5JegAMzY15tXy+FnHZhjGAGA+tttY7v/Gxykxr8qPn+PpootNADA7y5fx6+22fJ+y/Q9DXZMbW4IJFwAAAABJRU5ErkJggg==) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.mint-page-panel .btn-group .left {
+    cursor: pointer;
+    border-right: 1.5px solid rgba(231,233,255,.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 58px;
+}
+.mint-page-panel .btn-group .right {
+    cursor: pointer;
+    border-left: 1.5px solid rgba(231,233,255,.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 58px;
+}
+button {
+    background-color: transparent;
+    background-image: none;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    outline: none!important;
+    border: none;
+}
+.mint-page-panel .mint-btn {
+    margin-top: 10px;
+    background-color: #131314;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f3f6ff;
+    -webkit-clip-path: polygon(0 12px,0 100%,360px 100%,100% 44px,100% 0,12px 0);
+    clip-path: polygon(0 12px,0 100%,360px 100%,100% 44px,100% 0,12px 0);
+    transition: all .3s ease-in-out;
+}
+.content{
+    margin-top: 71px;
+}
+.mint{
+    font-weight: 1000;
+}
